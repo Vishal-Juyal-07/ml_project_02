@@ -1,7 +1,6 @@
 import logging
 import os
 import sys
-from ml_proj_02.exception import CustomException
 from datetime import datetime
 
 LOG_FILE=f"{datetime.now().strftime("%m_%d_%Y_%M_%H_%S")}.log"
@@ -17,5 +16,5 @@ logging.basicConfig(
     format='%(asctime)s - %(levelname)s - %(message)s'
     )
 
-  
+
         
